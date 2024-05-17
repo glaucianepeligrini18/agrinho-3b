@@ -11,3 +11,10 @@ for (let i = 0; i < botoes.length; i++) {
             textos[j].classList.remove("ativo");
         }
     }
+    body {
+        background-color: var(--cor-de-fundo);
+        color: var(--branco);
+        font-family: 'Chakra Petch', sans-serif;
+    }
+    
+} 
