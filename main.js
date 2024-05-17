@@ -10,11 +10,7 @@ for (let i = 0; i < botoes.length; i++) {
             botoes[j].classList.remove("ativo");
             textos[j].classList.remove("ativo");
         }
+        botoes[i].classList.add("ativo");
+        textos[i].classList.add("ativo");
     }
-    body {
-        background-color: var(--cor-de-fundo);
-        color: var(--branco);
-        font-family: 'Chakra Petch', sans-serif;
-    }
-    
 } 
